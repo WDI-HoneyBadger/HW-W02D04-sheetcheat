@@ -108,20 +108,20 @@ Your review sheet can be in any digital format you want, a word document, a goog
       * An example of map is: 
         ```javascript
          //var pizzaToppings = [
-       'pepperoni',
-        'cheese',
-       'sardines',
-        'mushrooms',
+          'pepperoni',
+           'cheese',
+         'sardines',
+         'mushrooms',
           'pineapples',
         'soap',
-       'sausage'
+        'sausage'
            ];
 
-       var pizzaToppingsCaps = pizzaToppings.map(function(topping){
-       return topping.toUpperCase();
-       })
+        var pizzaToppingsCaps = pizzaToppings.map(function(topping){
+        return topping.toUpperCase();
+        })
 
-      console.log(pizzaToppingsCaps);
+        console.log(pizzaToppingsCaps);
          ```
     * Filter:
       * .filter is an array method that: 
