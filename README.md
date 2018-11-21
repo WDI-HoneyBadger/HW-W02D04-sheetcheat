@@ -9,11 +9,11 @@ Your review sheet can be in any digital format you want, a word document, a goog
 * ### Variables:
   * How to declare a variable: (code)
     ```javascript
-    // write the syntax
+    var name = 'Abdulrab';
      ```
   * How to console.log the value of a variable: (code)
     ```javascript
-    // write the syntax
+    console.log(name);
      ```
 * ### conditionals:
   * ##### Operators:
@@ -25,34 +25,46 @@ Your review sheet can be in any digital format you want, a word document, a goog
         `write a definition `
    * ##### How to write an if Statements 
       ```javascript
-        // write the syntax
+        if ( name == 'Abdulrab' ){
+           console.log('correct');
+           };
        ```
  * ### functions:
     * How you declare a function: 
       ```javascript
-        // write the syntax
+        function home(){
+        
+        };
        ```
     * This is the other way to declare a function: 
       ```javascript
-        // write the syntax
+        var home = function(){
+        
+        };
        ```
     * This is a function that adds 4 to any number:
         ```javascript
-        // write the syntax
+        function numberAdd(num){
+           return num+4
+        };
+        numberAdd(8);
        ```
     * This is a function that capitalizes any word: 
         ```javascript
-        // write the syntax
+        function capitalizes(str){
+        var word = str.toUpperCase();
+        };
+        capitalizes('abdulrab');
        ```
     * We use functions because:
-     `write a definition `
+     `Once a function is written, it can be called multiple times from within the program. `
 * ### datatypes:
   * ##### Strings
     * A string is: 
-        `write a definition `
+        `sequence of symbols from character and number. `
     * You can capitalize a string by: 
         ```javascript
-        // write the syntax
+        var word = str.toUpperCase();
        ```
     * Concatentation is: 
         `write a definition `
