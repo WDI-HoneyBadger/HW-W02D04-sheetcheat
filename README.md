@@ -88,49 +88,73 @@ Your review sheet can be in any digital format you want, a word document, a goog
     * You can access an element in an array like this: var arr = ['Abdulrab', 'Bin Talib']; arr[0]; // Abdulrab
     * Map:
       * .map is an array method that: 
-         `write a definition `
+         `Method creates a new array with the results of calling a provided function on every element in the calling array. `
       * An example of map is: 
         ```javascript
-           // write the syntax
+           var bettyCakes = [
+                             'strawberry',
+                             'banana',
+                             'sparkle berry',
+                             'chocolate',
+                             'confetti',
+                             'angel cake',
+                             'vanilla'];
+          var neopolitan = bettyCakes.map(function(flavor){
+            if (flavor == 'strawberry') {
+              return 'strawberry'; });
+
+
          ```
     * Filter:
       * .filter is an array method that: 
-          `write a definition `
+          `Method creates a new array with all elements that pass the test implemented by the provided function. `
       * An example of filter is: 
         ```javascript
-           // write the syntax
+           bettyCakes.forEach(function(flavor){
+             if (flavor == 'strawberry') {
+               neopolitan2.push(flavor);});
          ```
     * forEach:
       * .forEach is an array method that: 
-         `write a definition `
+         `Method executes a provided function once for each array element. `
       *  An example of forEach is: 
          ```javascript
-           // write the syntax
+           var array1 = ['a', 'b', 'c'];
+            array1.forEach(function(element) {
+              console.log(element);
+            });
+
          ```
 
    * ##### objects
      * How to access a property  
         ```javascript
-           // write the syntax
+           var person = { Fname: 'Abdulrab', Lname: 'Bin Taleb', location: 'Riyadh' }
+           console.log(person.Fname);
         ```
 * ### loops
      *   how to make for loop 
          ```javascript
-           // write the syntax
+           while(true){
+             console.log('Abdulrab');
+           };
           ```
 * ### Querying the DOM
   ```javascript
-   // write the syntax
+   document.querySelector('.class');
+   document.querySelector('#id');
   ```
 * ### Creating a new element in the DOM
   ```javascript
-   // write the syntax
+   var newElement = document.createElement('p');
   ```
 * ### Appending a new element to the DOM
   ```javascript
-   // write the syntax
+    document.appendChild(newElement);
   ```
 * ### Updating the style properties
   ```javascript
-   // write the syntax
+   body.style.backgroundColor = 'Blu';
+   body.style.width = '80px';
+   body.style.height = '80px';
   ```
