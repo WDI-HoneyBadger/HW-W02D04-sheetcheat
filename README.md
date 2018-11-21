@@ -18,11 +18,11 @@ Your review sheet can be in any digital format you want, a word document, a goog
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
-       `write a definition `
+       `compare the variables values equal to `
     * How to use the `"==="` operator: 
-       `write a definition `
+       `compare the variables equal value and equal type `
     * How to use the `">"` operator: 
-        `write a definition `
+        `compare between two variabl greater than `
    * ##### How to write an if Statements 
       ```javascript
         if ( name == 'Abdulrab' ){
