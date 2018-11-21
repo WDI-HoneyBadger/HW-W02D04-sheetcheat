@@ -10,39 +10,64 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * How to declare a variable: (code)
     ```javascript
     // write the syntax
+  var a ; // variable Declaration
+a = 10; // variable Initialization
+  
      ```
   * How to console.log the value of a variable: (code)
     ```javascript
-    // write the syntax
+ 
+
+  console.log(a);
+  // expected output: 2
      ```
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
-       `write a definition `
+       `Checks if the values of two operands are equal or not, if yes then condition becomes true.  `
     * How to use the `"==="` operator: 
-       `write a definition `
+       `it verifies that the objects being compared are of the same type and avoids implicit conversions.`
     * How to use the `">"` operator: 
-        `write a definition `
+        `	Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true. `
+        
    * ##### How to write an if Statements 
       ```javascript
-        // write the syntax
+       var a = 1;
+      if (a === 1) {
+       var a = 2;
+     
+   
        ```
  * ### functions:
     * How you declare a function: 
       ```javascript
-        // write the syntax
-       ```
+function a() {
+}       ```
     * This is the other way to declare a function: 
       ```javascript
-        // write the syntax
+       var a = (function(){
+       });
+       or
+       var a = function(){
+       };
        ```
     * This is a function that adds 4 to any number:
         ```javascript
-        // write the syntax
+        function a(number){
+        console.log(4+number); 
+        };
+        a(3); // 7 
        ```
     * This is a function that capitalizes any word: 
         ```javascript
-        // write the syntax
+function myFunction() {
+    var str = "Hello World!";
+    var res = str.toUpperCase();
+    console.log(res);
+};
+myFunction();
+
+
        ```
     * We use functions because:
      `write a definition `
