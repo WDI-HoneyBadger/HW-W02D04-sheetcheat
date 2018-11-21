@@ -12,9 +12,9 @@ Your review sheet can be in any digital format you want, a word document, a goog
     // write the syntax
      ```
   * How to console.log the value of a variable: (code)
-    ```javascript
-    // write the syntax
-     ```
+   ```
+console.log(var);
+     
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
