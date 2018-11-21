@@ -14,6 +14,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * How to console.log the value of a variable: (code)
    ```
 console.log(var);
+```
      
 * ### conditionals:
   * ##### Operators:
