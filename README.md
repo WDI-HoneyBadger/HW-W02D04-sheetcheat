@@ -15,11 +15,11 @@ Your review sheet can be in any digital format you want, a word document, a goog
   
      ```
   * How to console.log the value of a variable: (code)
-    ```javascript
+    ``` console.log(a);
+  // expected output: 2
  
 
-  console.log(a);
-  // expected output: 2
+ 
      ```
 * ### conditionals:
   * ##### Operators:
