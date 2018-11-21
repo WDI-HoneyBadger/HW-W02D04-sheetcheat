@@ -140,19 +140,18 @@ console.log(result)
           var array1 = ['a', 'b', 'c'];
 array1.forEach(function(element) {
   console.log(element); });   
-    ``` 
+         ``` 
                                            
    * ##### objects
      * How to access a property  
         ```javascript
-           // person = {'firstname': 'John', 'lastname': 'Doe'}
-
+           person = {'firstname': 'John', 'lastname': 'Doe'}
        console.log(person['lastname']);
         ```
 * ### loops
      *   how to make for loop 
          ```javascript
-           // var step;
+           var step;
            for (step = 0; step < 5; step++) {
            // Runs 5 times, with values of step 0 through 4.
          console.log('Walking east one step');
