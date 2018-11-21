@@ -135,20 +135,22 @@ console.log(result)
 * forEach:
       * .forEach is an array method that: 
          `The forEach() method executes a provided function once for each array element. `
+         
       *  An example of forEach is: 
          ```javascript
           var array1 = ['a', 'b', 'c'];
-array1.forEach(function(element) {
-  console.log(element); });   
+          array1.forEach(function(element) {
+        console.log(element); });  
          ``` 
                                            
    * ##### objects
-     * How to access a property  
+* How to access a property  
         ```javascript
            person = {'firstname': 'John', 'lastname': 'Doe'}
        console.log(person['lastname']);
-        ```
-* ### loops
+      ```
+        
+    * ### loops
      *   how to make for loop 
          ```javascript
            var step;
