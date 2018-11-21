@@ -67,21 +67,25 @@ Your review sheet can be in any digital format you want, a word document, a goog
         var word = str.toUpperCase();
        ```
     * Concatentation is: 
-        `write a definition `
+        `joining two strings together. `
     * An example of concatenation:
          ```javascript
-        // write the syntax
+        console.log('Abdulrab ' + 'Bin Talib');
        ```
   * ##### Numbers:
     * The `%` operator is: 
-       `write a definition `
+       `Finds the remainder after division of one number by another `
     * Here is an example of the `%` operator in use:
        ```javascript
-        // write the syntax
+        if ( 4 % 2 == 0 ){
+        console.log('even');
+        } else {
+        console.log('odd');
+        };
        ```
   * ##### Arrays:
-    * An index is: (definition)
-    * You can access an element in an array like this: (code)
+    * An index is: The location of an item in an array.
+    * You can access an element in an array like this: var arr = ['Abdulrab', 'Bin Talib']; arr[0]; // Abdulrab
     * Map:
       * .map is an array method that: 
          `write a definition `
