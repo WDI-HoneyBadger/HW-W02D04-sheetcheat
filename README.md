@@ -38,11 +38,13 @@ Your review sheet can be in any digital format you want, a word document, a goog
     * How you declare a function: 
       ```javascript
       function a() {
-}       ```
+      };
+      ```
     * This is the other way to declare a function: 
       ``` javascript
       var a = (function(){
-       }); or
+       }); 
+       or
        var a = function(){
        };
        ```
@@ -55,12 +57,12 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
     * This is a function that capitalizes any word: 
         ```javascript
-function myFunction() {
-    var str = "Hello World!";
-    var res = str.toUpperCase();
-    console.log(res);
-};
-myFunction();
+         function myFunction() {
+         var str = "Hello World!";
+          var res = str.toUpperCase();
+          console.log(res);
+           };
+          myFunction();
        ```
     * We use functions because:
      ` Once a function is defined, it can be used over and over and over again. You can invoke the same function many times in your program, which saves you work.`
@@ -90,8 +92,8 @@ myFunction();
     * Here is an example of the `%` operator in use:
        ```javascript
          var y = 5;
-  var x = y % 2;
-  console.log(y); 
+       var x = y % 2;
+        console.log(y); 
        ```
   * ##### Arrays:
     * An index is:The location of an item in an array. Aggregate child (... is a part of or used in me.) Note: In most programming languages, the first array index is 0 or 1, and indexes continue through the natural numbers. The upper bound of an array is generally language and possibly system specific.
