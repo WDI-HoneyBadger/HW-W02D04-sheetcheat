@@ -20,15 +20,15 @@ Your review sheet can be in any digital format you want, a word document, a goog
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
-       `write a definition `:
+       `write a definition: `
        
        ```=> '"=="' This operator called '"equality"' which check the values of two variable.```
     * How to use the `"==="` operator: 
-       `write a definition `:
+       `write a definition: `
        
        ```=> '"==="' This operator called '"trequality"' which check the values of two variable and their types which need to be the same.```
     * How to use the `">"` operator: 
-        `write a definition `:
+        `write a definition: `
         
        ``` => This operator is carrot or '"Larger than"' which checks between two values to see which is the bigger value.```
    * ##### How to write an if Statements 
@@ -68,13 +68,13 @@ Your review sheet can be in any digital format you want, a word document, a goog
         }
        ```
     * We use functions because:
-     `write a definition `:
+     `write a definition: `
      
      ```To performs a task or calculates a value.```
 * ### datatypes:
   * ##### Strings
     * A string is: 
-        `write a definition `:
+        `write a definition: `
         
         ``` String is a data type used in programming, and used to represent text rather than numbers. ```
     * You can capitalize a string by: 
@@ -83,7 +83,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
         a method called '"toUpperCase();"'
        ```
     * Concatentation is: 
-        `write a definition `:
+        `write a definition: `
         
         ``` Concatentation is an operation to join two strings or more into one string variable. ```
     * An example of concatenation:
@@ -93,7 +93,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
   * ##### Numbers:
     * The `%` operator is: 
-       `write a definition `:
+       `write a definition: `
        
        ``` modulo is an arithimetic operator which calculates the remainder of a quotient after division. ```
     * Here is an example of the `%` operator in use:
@@ -110,7 +110,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
     ``` arrayName[index] = etc...```
     * Map:
       * .map is an array method that: 
-         `write a definition `:
+         `write a definition: `
          
         ``` 'The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value.' ```
          
@@ -123,7 +123,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
          ```
     * Filter:
       * .filter is an array method that: 
-          `write a definition :'
+          `write a definition:'
           
        ```   'The filter() method creates a new array with all elements that pass the test implemented by the provided function.' ```
       * An example of filter is: 
@@ -135,7 +135,8 @@ Your review sheet can be in any digital format you want, a word document, a goog
          ```
     * forEach:
       * .forEach is an array method that: 
-         `write a definition `
+         `write a definition:
+         `
         ``` 'forEach is an Array method that we can use to execute a function on each element in an array.' ```
          
       *  An example of forEach is: 
