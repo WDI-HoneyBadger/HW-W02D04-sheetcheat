@@ -98,34 +98,39 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * ##### Arrays:
     * An index is:The location of an item in an array. Aggregate child (... is a part of or used in me.) Note: In most programming languages, the first array index is 0 or 1, and indexes continue through the natural numbers. The upper bound of an array is generally language and possibly system specific.
     * You can access an element in an array like this: (code)
-    var cars = ["Saab", "Volvo", "BMW"];
-console.log(cars[0]);
+        ```javascript
+       var cars = ["Saab", "Volvo", "BMW"];
+         console.log(cars[0]);
+             ```
     * Map:
       * .map is an array method that: 
          `The map() method creates a new array with the results of calling a provided function on every element in the calling array. `
       * An example of map is: 
         ```javascript
-           //var pizzaToppings = [
-  'pepperoni',
-  'cheese',
-  'sardines',
-  'mushrooms',
-  'pineapples',
-  'soap',
-  'sausage'
-];
+         //var pizzaToppings = [
+       'pepperoni',
+        'cheese',
+       'sardines',
+        'mushrooms',
+          'pineapples',
+        'soap',
+       'sausage'
+           ];
 
-var pizzaToppingsCaps = pizzaToppings.map(function(topping){
-  return topping.toUpperCase();
-})
+       var pizzaToppingsCaps = pizzaToppings.map(function(topping){
+       return topping.toUpperCase();
+       })
 
-console.log(pizzaToppingsCaps);
+      console.log(pizzaToppingsCaps);
          ```
     * Filter:
       * .filter is an array method that: 
           `The filter() method creates a new array with all elements that pass the test implemented by the provided function. `
       * An example of filter is: 
-        ```var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+                ```javascript
+
+        
+        var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const result = words.filter(word => word.length > 6);
 
@@ -154,10 +159,10 @@ console.log(person['lastname']);
      *   how to make for loop 
          ```javascript
            // var step;
-for (step = 0; step < 5; step++) {
-  // Runs 5 times, with values of step 0 through 4.
-  console.log('Walking east one step');
-}
+           for (step = 0; step < 5; step++) {
+           // Runs 5 times, with values of step 0 through 4.
+         console.log('Walking east one step');
+                  }
           ```
 * ### Querying the DOM
   ```javascript
@@ -177,8 +182,8 @@ for (step = 0; step < 5; step++) {
   ```javascript
    //  body.style.backgroundColor = 'red';
    document.getElementById("p2").style.color = "blue";
-document.getElementById("p2").style.fontFamily = "Arial";
-document.getElementById("p2").style.fontSize = "larger";
+    document.getElementById("p2").style.fontFamily = "Arial";
+   document.getElementById("p2").style.fontSize = "larger";
    
 
   ```
