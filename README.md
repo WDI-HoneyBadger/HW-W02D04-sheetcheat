@@ -21,13 +21,13 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * ##### Operators:
     * How to use the `"=="` operator: 
        `write a definition `
-       => '"=="' This operator called '"equality"' which check the values of two variable.
+       ```=> '"=="' This operator called '"equality"' which check the values of two variable.```
     * How to use the `"==="` operator: 
        `write a definition `
-       => '"==="' This operator called '"trequality"' which check the values of two variable and their types which need to be the same.
+       ```=> '"==="' This operator called '"trequality"' which check the values of two variable and their types which need to be the same.```
     * How to use the `">"` operator: 
         `write a definition `
-        => This operator is carrot or '"Larger than"' which checks between two values to see which is the bigger value.
+       ``` => This operator is carrot or '"Larger than"' which checks between two values to see which is the bigger value.```
    * ##### How to write an if Statements 
       ```javascript
         // write the syntax
@@ -66,7 +66,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
     * We use functions because:
      `write a definition `
-     To performs a task or calculates a value.
+     ```To performs a task or calculates a value.```
 * ### datatypes:
   * ##### Strings
     * A string is: 
@@ -97,12 +97,12 @@ Your review sheet can be in any digital format you want, a word document, a goog
         }
        ```
   * ##### Arrays:
-    * An index is: is the location number of the element inside the array.
-    * You can access an element in an array like this: arrayName[index] = etc...
+    * An index is: ``` the location number of the element inside the array.```
+    * You can access an element in an array like this:``` arrayName[index] = etc...```
     * Map:
       * .map is an array method that: 
          `write a definition `
-         'The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value.'
+        ``` 'The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value.' ```
          
       * An example of map is: 
         ```javascript
@@ -114,7 +114,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
     * Filter:
       * .filter is an array method that: 
           `write a definition `
-          'The filter() method creates a new array with all elements that pass the test implemented by the provided function.'
+       ```   'The filter() method creates a new array with all elements that pass the test implemented by the provided function.' ```
       * An example of filter is: 
         ```javascript
            // write the syntax
@@ -125,7 +125,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
     * forEach:
       * .forEach is an array method that: 
          `write a definition `
-         'forEach is an Array method that we can use to execute a function on each element in an array.'
+        ``` 'forEach is an Array method that we can use to execute a function on each element in an array.' ```
          
       *  An example of forEach is: 
          ```javascript
