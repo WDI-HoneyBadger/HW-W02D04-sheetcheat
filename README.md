@@ -36,10 +36,12 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
  * ### functions:
     * How you declare a function: 
-      ```function a() {
+      ```javascript
+      function a() {
 }       ```
     * This is the other way to declare a function: 
-      ``` var a = (function(){
+      ``` javascript
+      var a = (function(){
        });
        or
        var a = function(){
@@ -79,10 +81,10 @@ myFunction();
     * Concatentation is: 
         ` is the operation of joining two strings together. The term"concatenation" literally means to merge two things together. `
     * An example of concatenation:
+    
          ```javascript
-        // var number =5;
-
-console.log("3"+number); //35
+        // var number =5; 
+        console.log("3"+number); //35
        ```
   * ##### Numbers:
     * The `%` operator is: 
