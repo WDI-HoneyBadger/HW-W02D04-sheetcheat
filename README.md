@@ -10,6 +10,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * How to declare a variable: (code)
     ```javascript
     // write the syntax
+    
      ```
   * How to console.log the value of a variable: (code)
     ```javascript
