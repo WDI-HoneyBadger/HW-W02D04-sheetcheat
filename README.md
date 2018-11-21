@@ -42,8 +42,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
     * This is the other way to declare a function: 
       ``` javascript
       var a = (function(){
-       });
-       or
+       }); or
        var a = function(){
        };
        ```
