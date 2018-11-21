@@ -37,12 +37,10 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
  * ### functions:
     * How you declare a function: 
-      ```javascript
-function a() {
+      ```function a() {
 }       ```
     * This is the other way to declare a function: 
-      ```javascript
-       var a = (function(){
+      ``` var a = (function(){
        });
        or
        var a = function(){
