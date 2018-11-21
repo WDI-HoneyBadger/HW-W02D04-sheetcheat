@@ -160,12 +160,12 @@ array1.forEach(function(element) {
           ```
 * ### Querying the DOM
   ```javascript
-   // document.querySelector(".example")
+   document.querySelector(".example")
     document.querySelector("#example")
   ```
 * ### Creating a new element in the DOM
   ```javascript
-   //var para = document.createElement("P");
+   var para = document.createElement("P");
 
   ```
 * ### Appending a new element to the DOM
