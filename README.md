@@ -62,11 +62,10 @@ function myFunction() {
     console.log(res);
 };
 myFunction();
-
-
        ```
     * We use functions because:
      ` Once a function is defined, it can be used over and over and over again. You can invoke the same function many times in your program, which saves you work.`
+     
 * ### datatypes:
   * ##### Strings
     * A string is:  
