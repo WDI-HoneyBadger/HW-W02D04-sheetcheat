@@ -9,7 +9,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
 * ### Variables:
   * How to declare a variable: (code)
     ```javascript
-    //   var a ; // variable Declaration 
+       var a ; // variable Declaration 
     a = 10; // variable Initialization
 
   
