@@ -92,25 +92,28 @@ Your review sheet can be in any digital format you want, a word document, a goog
       * .map is an array method that: 
          Creating a new array after going through provided function with specific task.
       * An example of map is: 
-        ```javascript
+        ```
+        javascript
         
-        // var pizzaToppings = [
-//   'pepperoni',
-//   'cheese',
-//   'sardines',
-//   'mushrooms',
-//   'pineapples',
-//   'soap',
-//   'sausage'
-// ];
+        var pizzaToppings = [
+  'pepperoni',
+  'cheese',
+ 'sardines',
+ 'mushrooms',
+ 'pineapples',
+ 'soap',
+ 'sausage'
+];
 
 /* FOREACH LOOPS */
 /* pizzaToppings.forEach(function(topping){
   if(topping[0] == 's') {
     console.log(topping);
   }
-})
-         ```
+})```
+
+
+```
     * Filter:
       * .filter is an array method that: 
           Has a function built in which is responsible in comparing between variables or objects. It's very similar to if statement but in professional and wise way.
