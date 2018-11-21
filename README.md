@@ -107,7 +107,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
          `The map() method creates a new array with the results of calling a provided function on every element in the calling array. `
       * An example of map is: 
         ```javascript
-         //var pizzaToppings = [
+         var pizzaToppings = [
           'pepperoni',
            'cheese',
          'sardines',
