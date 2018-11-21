@@ -174,7 +174,7 @@ pizzaToppings.forEach(function(topping){
   ```
 * ### Creating a new element in the DOM
   ```javascript
-   document.ceateElement();
+   document.createElement();
   ```
 * ### Appending a new element to the DOM
   ```javascript
