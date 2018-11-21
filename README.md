@@ -76,14 +76,14 @@ Your review sheet can be in any digital format you want, a word document, a goog
         `
     * You can capitalize a string by: 
         ```javascript
-        // console.log('alphabet'.toUpperCase());
+         console.log('alphabet'.toUpperCase());
        ```
     * Concatentation is: 
         ` is the operation of joining two strings together. The term"concatenation" literally means to merge two things together. `
     * An example of concatenation:
     
          ```javascript
-        // var number =5; 
+         var number =5; 
         console.log("3"+number); //35
        ```
   * ##### Numbers:
@@ -172,11 +172,11 @@ console.log(result)
   ```
 * ### Appending a new element to the DOM
   ```javascript
-   // para.appendChild(new);
+    para.appendChild(new);
   ```
 * ### Updating the style properties
   ```javascript
-   //  body.style.backgroundColor = 'red';
+     body.style.backgroundColor = 'red';
    document.getElementById("p2").style.color = "blue";
     document.getElementById("p2").style.fontFamily = "Arial";
    document.getElementById("p2").style.fontSize = "larger";
