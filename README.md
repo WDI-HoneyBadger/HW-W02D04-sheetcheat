@@ -128,10 +128,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
           `The filter() method creates a new array with all elements that pass the test implemented by the provided function. `
       * An example of filter is: 
 ```javascript
-
-        
-        var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-
+var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 const result = words.filter(word => word.length > 6);
 console.log(result)
 ```
