@@ -127,17 +127,15 @@ Your review sheet can be in any digital format you want, a word document, a goog
       * .filter is an array method that: 
           `The filter() method creates a new array with all elements that pass the test implemented by the provided function. `
       * An example of filter is: 
-                ```javascript
+```javascript
 
         
         var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const result = words.filter(word => word.length > 6);
-
 console.log(result)
-           // he filter() method creates a new array with all elements that pass the test implemented by the provided function.
-         ```
-    * forEach:
+```
+* forEach:
       * .forEach is an array method that: 
          `The forEach() method executes a provided function once for each array element. `
       *  An example of forEach is: 
@@ -145,15 +143,13 @@ console.log(result)
           var array1 = ['a', 'b', 'c'];
 array1.forEach(function(element) {
   console.log(element);
-});
-         ```
-
-   * ##### objects
+});   ```
+* ##### objects
      * How to access a property  
         ```javascript
            // person = {'firstname': 'John', 'lastname': 'Doe'}
 
-console.log(person['lastname']);
+       console.log(person['lastname']);
         ```
 * ### loops
      *   how to make for loop 
