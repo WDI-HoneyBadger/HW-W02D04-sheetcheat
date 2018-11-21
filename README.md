@@ -172,7 +172,7 @@ console.log(result)
   ```
 * ### Appending a new element to the DOM
   ```javascript
-   // write the syntax
+   // para.appendChild(new);
   ```
 * ### Updating the style properties
   ```javascript
