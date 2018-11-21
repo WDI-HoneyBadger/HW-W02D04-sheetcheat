@@ -10,50 +10,79 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * How to declare a variable: (code)
     ```javascript
     // write the syntax
-    
+    var name = 'value';
      ```
   * How to console.log the value of a variable: (code)
     ```javascript
     // write the syntax
+    console.log(variable);
      ```
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
        `write a definition `
+       compairson value only
     * How to use the `"==="` operator: 
        `write a definition `
+       compre data type and value
     * How to use the `">"` operator: 
         `write a definition `
+        Returns true if the left operand is greater than the right operand.
+        
    * ##### How to write an if Statements 
       ```javascript
         // write the syntax
        ```
+       if (condition){
+       block of code to be executed if the condition is true
+       } else{
+       block of code to be executed if the condition is false
+       }
  * ### functions:
     * How you declare a function: 
       ```javascript
         // write the syntax
+        function name(parameters){
+        statements
+        }
        ```
+       
     * This is the other way to declare a function: 
       ```javascript
         // write the syntax
+        var name = function(parameters){
+        statements
+        }
        ```
     * This is a function that adds 4 to any number:
         ```javascript
         // write the syntax
+        var number = function(num){
+        console.log(num + 4)
+        };
+        
        ```
     * This is a function that capitalizes any word: 
         ```javascript
         // write the syntax
+        var word = function(words){
+        return words.toUpperCase()
+        };
+        
        ```
     * We use functions because:
      `write a definition `
+     They can be assigned to a value, and they can be passed as arguments and used as a return value.
+     
 * ### datatypes:
   * ##### Strings
     * A string is: 
         `write a definition `
+        is a data type denoted by double or single quotes
     * You can capitalize a string by: 
         ```javascript
         // write the syntax
+        
        ```
     * Concatentation is: 
         `write a definition `
