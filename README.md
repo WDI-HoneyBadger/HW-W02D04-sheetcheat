@@ -139,9 +139,10 @@ console.log(result)
          ```javascript
           var array1 = ['a', 'b', 'c'];
 array1.forEach(function(element) {
-  console.log(element);
-});   ```
-* ##### objects
+  console.log(element); });   
+  ``` 
+                                          
+   * ##### objects
      * How to access a property  
         ```javascript
            // person = {'firstname': 'John', 'lastname': 'Doe'}
