@@ -32,19 +32,18 @@ Your review sheet can be in any digital format you want, a word document, a goog
    * ##### How to write an if Statements 
       ```javascript
         // write the syntax
-       ```
-       if (condition){
+        if (condition){
        block of code to be executed if the condition is true
        } else{
        block of code to be executed if the condition is false
        }
+       ```
+      
  * ### functions:
     * How you declare a function: 
       ```javascript
         // write the syntax
-        function name(parameters){
-        statements
-        }
+        var name = 'value';
        ```
        
     * This is the other way to declare a function: 
@@ -52,7 +51,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
         // write the syntax
         var name = function(parameters){
         statements
-        }
+        };
        ```
     * This is a function that adds 4 to any number:
         ```javascript
@@ -86,6 +85,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
     * Concatentation is: 
         `write a definition `
+        
     * An example of concatenation:
          ```javascript
         // write the syntax
@@ -99,7 +99,10 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
   * ##### Arrays:
     * An index is: (definition)
+    is an ordered list of values; these values can be strings, booleans, numbers.
     * You can access an element in an array like this: (code)
+    var favoritePlace = ['Riyadh', 'NewYork', 'china'];
+    favoritePlace[1]; // => NewYork
     * Map:
       * .map is an array method that: 
          `write a definition `
@@ -131,20 +134,32 @@ Your review sheet can be in any digital format you want, a word document, a goog
      *   how to make for loop 
          ```javascript
            // write the syntax
+           for (initialization; condition; finalExpression){
+           // A block of code.
+           }
           ```
 * ### Querying the DOM
   ```javascript
    // write the syntax
+   document.querySelector('varabie');
   ```
 * ### Creating a new element in the DOM
   ```javascript
    // write the syntax
+   we will need to use three step process;
+   1. we will use the createElement() method.
+   2. add content to the element using the innerHTML or textcontent properites.
+   3.add the content by useing appendChil() method.
+   var newlistItem = document.creatElement('li');
+   newListItem.textContent = 'Jalapenos';
   ```
 * ### Appending a new element to the DOM
   ```javascript
    // write the syntax
+   document.querySelector('ul').appendChild(newListItem);
   ```
 * ### Updating the style properties
   ```javascript
    // write the syntax
+  
   ```
