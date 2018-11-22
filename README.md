@@ -127,21 +127,26 @@ Your review sheet can be in any digital format you want, a word document, a goog
          ```
     * Filter:
       * .filter is an array method that: 
-          `write a definition `
+          `Creates an array filled with all array elements that pass the function condition. `
       * An example of filter is: 
         ```javascript
            // write the syntax
+            
+           var fullTimeEmployees = employees.filter(function(fullTime) {
+          return fullTime.status === 'full-time';
+          });
          ```
     * forEach:
       * .forEach is an array method that: 
-         `Creates an array filled with all array elements that pass the function condition.`
+         `Enable us to excute a function for each emelemnt in the array`
       *  An example of forEach is: 
          ```javascript
            // write the syntax
            
-           var fullTimeEmployees = employees.filter(function(fullTime) {
-          return fullTime.status === 'full-time';
-          });
+            array.forEach(function(arr) {
+            console.log(`${arr}`);
+             })
+          
          ```
 
    * ##### objects
