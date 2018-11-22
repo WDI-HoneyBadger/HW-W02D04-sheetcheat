@@ -8,8 +8,8 @@ Your review sheet can be in any digital format you want, a word document, a goog
 
 * ### Variables:
   * How to declare a variable: (code)
-    ```javascript
-    // write the syntax
+    ```
+    var height = 400px;
      ```
   * How to console.log the value of a variable: (code)
     ```javascript
