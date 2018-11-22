@@ -9,112 +9,157 @@ Your review sheet can be in any digital format you want, a word document, a goog
 * ### Variables:
   * How to declare a variable: (code)
     ```javascript
-    // write the syntax
+    var name = 'nada';
      ```
   * How to console.log the value of a variable: (code)
     ```javascript
-    // write the syntax
+    console.log(code);
      ```
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
-       `write a definition `
+       `We use it when we want to compare variables value and don't care of type `
     * How to use the `"==="` operator: 
-       `write a definition `
+       `We use it when we want to compare if the variables have same value and type `
     * How to use the `">"` operator: 
-        `write a definition `
+        `To compare if one variable is greater then anothar varable example:`
+        ` var1 > var2 `
    * ##### How to write an if Statements 
       ```javascript
-        // write the syntax
+        var i = 0;
+        if (var < 5){
+           console.log(var);
+        }
        ```
  * ### functions:
     * How you declare a function: 
       ```javascript
-        // write the syntax
+        function nameOfFunction() {
+            // code of the function operation
+        };
        ```
     * This is the other way to declare a function: 
       ```javascript
-        // write the syntax
+        var nameOfFunction = function() {
+            // code of the function operation
+        };
        ```
     * This is a function that adds 4 to any number:
         ```javascript
-        // write the syntax
-       ```
+        var num = 2;
+        function addFour() {
+            num = num + 4;
+        }
+        ```
     * This is a function that capitalizes any word: 
         ```javascript
-        // write the syntax
+       function capitalize(word) {
+            word.toUpperCase();
+       }
+       capitalize('hello');
        ```
     * We use functions because:
-     `write a definition `
+     `We use the function when we what to do spcific operation/s only when the function call. `
 * ### datatypes:
   * ##### Strings
     * A string is: 
-        `write a definition `
+        `Sequence of charecters. `
     * You can capitalize a string by: 
         ```javascript
-        // write the syntax
+        var name = 'nada';
+        name.toUpperCase();
        ```
     * Concatentation is: 
-        `write a definition `
+        `adding two strings togather. `
     * An example of concatenation:
          ```javascript
-        // write the syntax
+         var myName = 'Nada';
+         console.log('My name is: ' + myName);
        ```
   * ##### Numbers:
     * The `%` operator is: 
-       `write a definition `
+       `we call it remainder give us the remainder from the division operation`
     * Here is an example of the `%` operator in use:
        ```javascript
-        // write the syntax
+       // This will give us 1
+        console.log(15 % 2);
        ```
   * ##### Arrays:
-    * An index is: (definition)
-    * You can access an element in an array like this: (code)
+    * An index is: the position of array element
+    * You can access an element in an array like this: (arrayName[i])
     * Map:
       * .map is an array method that: 
-         `write a definition `
+         `access an objects and alwayes return array`
       * An example of map is: 
         ```javascript
-           // write the syntax
+           var pizzaToppings = [ 
+           'pepperoni',
+           'cheese',
+           'sardines'
+           ];
+           var pizzaToppingsCaps = pizzaToppings.map(function(topping){
+           return topping.toUpperCase();
+           })
          ```
     * Filter:
       * .filter is an array method that: 
-          `write a definition `
+          `Get some of array element with spcific properties `
       * An example of filter is: 
         ```javascript
-           // write the syntax
+           var newArray = arrayname.filter(function(parameter){
+           .
+           .
+           })
          ```
     * forEach:
       * .forEach is an array method that: 
-         `write a definition `
+         `Access all array elements and output all or some of array elements with, forEach can’t be used with object `
       *  An example of forEach is: 
          ```javascript
-           // write the syntax
+           var newArray = arrayname.foreach(function(parameter) {
+           .
+           .
+           })
          ```
 
    * ##### objects
      * How to access a property  
         ```javascript
-           // write the syntax
+           var car = { 
+           name: 'lumbergeni',
+           year: 2016,
+           speed: 349
+           }
+           
+           // Access a property
+           car.year = 2017;
         ```
 * ### loops
      *   how to make for loop 
          ```javascript
-           // write the syntax
+         // This wi iterate 10 times
+           for (var i = 0; i < 10; i++){
+               console.log('i = ',i);
+           }
           ```
 * ### Querying the DOM
   ```javascript
-   // write the syntax
+   document.querySelector('.className');
+   document.querySelector('#idName');
+   document.querySelector('tagName');
+   document.querySelectorAll('.className');
+   document.querySelectorAll('#idName');
   ```
 * ### Creating a new element in the DOM
   ```javascript
-   // write the syntax
+   var pTag = document.createElement('p');
   ```
 * ### Appending a new element to the DOM
   ```javascript
-   // write the syntax
+   document.appendChild(pTag);
   ```
 * ### Updating the style properties
   ```javascript
-   // write the syntax
+   span.style.color = 'red';
+   span.style.fontSize = '25px';
   ```
