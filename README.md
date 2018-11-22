@@ -93,9 +93,18 @@ Your review sheet can be in any digital format you want, a word document, a goog
   * ##### Numbers:
     * The `%` operator is: 
        `write a definition `
+       one operand is divided by a second operand
     * Here is an example of the `%` operator in use:
        ```javascript
         // write the syntax
+        var areBothEven = function (num1, num2) {
+           if (num1 % 2 === 0 && num2 % 2 === 0) {
+               return true;
+           } else {
+               return false;
+           }
+         };
+         areBothEven(2, 4);
        ```
   * ##### Arrays:
     * An index is: (definition)
@@ -129,6 +138,15 @@ Your review sheet can be in any digital format you want, a word document, a goog
      * How to access a property  
         ```javascript
            // write the syntax
+           var myBicycle = {
+          color: "brown",
+          model: "DL165",
+          make: "Raleigh Competition",
+          year: 1976,
+          accelerate: function () {
+              console.log("Zoom zoom!");
+} }
+var bicyclemMake = myBicycle.make;
         ```
 * ### loops
      *   how to make for loop 
