@@ -24,7 +24,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
     * How to use the `">"` operator: 
         return true if 5 grater than 3 ex( 5>3)
    * ##### How to write an if Statements 
-      ```
+    ```
  
     if(num1>num2){
         console.log('the ',num1,'grater than',num2);
@@ -37,7 +37,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
        ```
  * ### functions:
     * How you declare a function: 
-      ```
+     ```
       function helloWorld(langCode){
 
     if (langCode=='English'){
@@ -47,8 +47,9 @@ Your review sheet can be in any digital format you want, a word document, a goog
     else {
 
  console.log('Bonjour le monde');
-    }}
-       ```
+    }
+    ```
+      
     * This is the other way to declare a function: 
       ```
       var helloWorld = function (langCode){
