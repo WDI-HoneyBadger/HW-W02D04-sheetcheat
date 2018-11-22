@@ -8,113 +8,213 @@ Your review sheet can be in any digital format you want, a word document, a goog
 
 * ### Variables:
   * How to declare a variable: (code)
-    ```javascript
-    // write the syntax
+    ```
+    var height = 400px;
      ```
   * How to console.log the value of a variable: (code)
-    ```javascript
-    // write the syntax
+    ```
+    console.log(height);
      ```
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
-       `write a definition `
+      compares the value only
     * How to use the `"==="` operator: 
-       `write a definition `
+       compares the value and the type
     * How to use the `">"` operator: 
-        `write a definition `
+        return true if 5 grater than 3 ex( 5>3)
    * ##### How to write an if Statements 
-      ```javascript
-        // write the syntax
+    ```
+ 
+    if(num1>num2){
+        console.log('the ',num1,'grater than',num2);
+    }else if (num2>num1){
+        console.log('the ',num2,'grater than',num1);
+    }else{
+        console.log('the ',num1,'=',num2);
+    }
+
        ```
  * ### functions:
     * How you declare a function: 
-      ```javascript
-        // write the syntax
-       ```
+     ```
+      function helloWorld(langCode){
+
+    if (langCode=='English'){
+        console.log('Hello world');
+    }else if(langCode=='Arabic'){
+        console.log('مرحبا بالعالم');}
+    else {
+
+ console.log('Bonjour le monde');
+    }
+    ```
+      
     * This is the other way to declare a function: 
-      ```javascript
-        // write the syntax
+      ```
+      var helloWorld = function (langCode){
+      
+      
+    if (langCode=='English'){
+        console.log('Hello world');
+    }else if(langCode=='Arabic'){
+        console.log('مرحبا بالعالم');}
+    else {
+
+ console.log('Bonjour le monde');
+    }
+      }
+      
        ```
     * This is a function that adds 4 to any number:
-        ```javascript
-        // write the syntax
+        ```
+        
+        function functionAdd(a) {
+   
+    return a+4;
+}
        ```
     * This is a function that capitalizes any word: 
-        ```javascript
-        // write the syntax
+        ```
+        function upperCase(string) 
+{
+    return string.toUpperCase() ;
+}
        ```
     * We use functions because:
-     `write a definition `
+     `The first reason is reusability. Once a function is defined, it can be used over and over and over again. You can invoke the same function many times in your program, which saves you work.`
 * ### datatypes:
   * ##### Strings
     * A string is: 
-        `write a definition `
+        `JavaScript's String type is used to represent textual data. It is a set of "elements" of 16-bit unsigned integer values. Each element in the String occupies a position in the String. `
     * You can capitalize a string by: 
         ```javascript
-        // write the syntax
+        .toUpperCase() method
        ```
     * Concatentation is: 
-        `write a definition `
+        `In javascript the "+" operator is used to add numbers or to concatenate strings. if one of the operands is a string "+" concatenates, and if it is only numbers it adds them `
     * An example of concatenation:
-         ```javascript
-        // write the syntax
+         ```
+var z = x + y;
        ```
   * ##### Numbers:
     * The `%` operator is: 
-       `write a definition `
+       `The remainder assignment operator divides a variable by the value of the right operand and assigns the remainder to the variable. `
     * Here is an example of the `%` operator in use:
-       ```javascript
-        // write the syntax
+       ```  var x = 5 % 2; //result =1
+       
        ```
   * ##### Arrays:
-    * An index is: (definition)
-    * You can access an element in an array like this: (code)
+    * An index is: JavaScript arrays are zero-indexed: the first element of an array is at index 0 , and the last element is at the index equal to the value of the array's length property minus 1.
+    * You can access an element in an array like this: a[0] = for the first element.
     * Map:
       * .map is an array method that: 
-         `write a definition `
+         `The map() method creates a new array with the results of calling a function for every array element. The map() method calls the provided function once for each element in an array, in order. `
       * An example of map is: 
-        ```javascript
-           // write the syntax
+        ```
+          var pizzaToppings = [
+    'pepperoni',
+    'cheese',
+    'sardines',
+    'mushrooms',
+    'pineapples',
+    'soap',
+    'sausage'
+  ];
+  
+  var pizzaToppingsCaps = pizzaToppings.map(function(topping){
+    return topping.toUpperCase();
+  })
          ```
     * Filter:
       * .filter is an array method that: 
           `write a definition `
       * An example of filter is: 
-        ```javascript
-           // write the syntax
+        ```var pizzaToppings = [
+    'pepperoni',
+    'cheese',
+    'sardines',
+    'mushrooms',
+    'pineapples',
+    'soap',
+    'sausage'
+  ];
+ 
+  var sPizzaToppings = pizzaToppings.filter(function(topping) {
+    return topping[0] === 's';
+  });
+  
          ```
     * forEach:
       * .forEach is an array method that: 
          `write a definition `
       *  An example of forEach is: 
-         ```javascript
-           // write the syntax
+         ```var pizzaToppings = [
+    'pepperoni',
+    'cheese',
+    'sardines',
+    'mushrooms',
+    'pineapples',
+    'soap',
+    'sausage'
+  ];
+  
+  pizzaToppings.forEach(function(topping){
+    if(topping[0] == 's') {
+      console.log(topping);
+    }
+  })
          ```
 
    * ##### objects
      * How to access a property  
-        ```javascript
-           // write the syntax
+        ```var  aquarium = {
+    filledWithWater: true,
+    capacityInGallons: 12,
+    numberOfRocks: 5,
+    fish: [
+            {
+                type: 'goldfish' ,
+                size: '3.5 inches',
+                color: 'golden'
+            },
+            {
+                type: 'puffer',
+                size: '4 inches',
+                color: 'tan'
+            },
+            {
+                type: 'clown',
+                size: '3 inches',
+                color: 'orange'
+            }
+        ]
+}
+aquarium.capacityInGallons;
         ```
 * ### loops
      *   how to make for loop 
-         ```javascript
-           // write the syntax
+         ```
+         for(var i=0 ; i< a.length ; i++){
+         return a[i];
+         }
+         
           ```
 * ### Querying the DOM
   ```javascript
-   // write the syntax
+ document.querySelector(".example");
+
   ```
 * ### Creating a new element in the DOM
-  ```javascript
-   // write the syntax
+  ```var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
   ```
 * ### Appending a new element to the DOM
-  ```javascript
-   // write the syntax
+  ```
+  para.appendChild(node);
   ```
 * ### Updating the style properties
-  ```javascript
-   // write the syntax
+  ```
+   animal.style.color ='black';
   ```
