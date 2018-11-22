@@ -19,7 +19,7 @@ Your review sheet can be in any digital format you want, a word document, a goog
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
-       `write a definition `
+      ` 
     * How to use the `"==="` operator: 
        `write a definition `
     * How to use the `">"` operator: 
@@ -75,14 +75,14 @@ Your review sheet can be in any digital format you want, a word document, a goog
        remainder = 5 % 2
        ```
   * ##### Arrays:
-    * An index is: (definition)
-    * You can access an element in an array like this: (code)
+    * An index is: the postion of a spesific element in an array.
+    * You can access an element in an array like this: Arr[i];
     * Map:
       * .map is an array method that: 
-         `write a definition `
+         runs a specific function over the entire arrey.
       * An example of map is: 
         ```javascript
-           // write the syntax
+          Arrey.map(arreymethod(input))
          ```
     * Filter:
       * .filter is an array method that: 
@@ -111,11 +111,11 @@ Your review sheet can be in any digital format you want, a word document, a goog
           ```
 * ### Querying the DOM
   ```javascript
-   // write the syntax
+   document.queryselect() or document.queryslectall();
   ```
 * ### Creating a new element in the DOM
   ```javascript
-   // write the syntax
+   
   ```
 * ### Appending a new element to the DOM
   ```javascript
