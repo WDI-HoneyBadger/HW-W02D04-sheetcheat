@@ -19,11 +19,11 @@ Your review sheet can be in any digital format you want, a word document, a goog
 * ### conditionals:
   * ##### Operators:
     * How to use the `"=="` operator: 
-      ` 
+     ` == operator returns a true values are equal and false if they are not. useulay used with if statements.`
     * How to use the `"==="` operator: 
-       `write a definition `
+     `=== operattor retunes true if both values are equal and type- match, false if otherwise`
     * How to use the `">"` operator: 
-        `write a definition `
+        `greater than sign returns true is value of the left is large than the value on the right` 
    * ##### How to write an if Statements 
       ```javascript
        if (condition){
@@ -33,18 +33,23 @@ Your review sheet can be in any digital format you want, a word document, a goog
  * ### functions:
     * How you declare a function: 
       ```javascript
-        // write the syntax
+       var name = function(){
+       logic;
+        };
        ```
     * This is the other way to declare a function: 
       ```javascript
-       function name(parameter){
+       function name(argument){
        logic;
        }
        ```
     * This is a function that adds 4 to any number:
         ```javascript
-        function() = 
-       ```
+        function(num){
+           num = num + 4;
+            return num
+           }
+        ```
     * This is a function that capitalizes any word: 
         ```javascript
        function(word){
@@ -60,13 +65,14 @@ Your review sheet can be in any digital format you want, a word document, a goog
         way to organice any combinatios of words
     * You can capitalize a string by: 
         ```javascript
-        // write the syntax
+       var string;
+       string.toUppercase();
        ```
     * Concatentation is: 
-        `puting one or more string togother
+        `puting one or more string togother`
     * An example of concatenation: 
          ```javascript
-        // write the syntax
+        `'this' + " " + is + 'concatanated' + " " + 'string'`
        ```
   * ##### Numbers:
     * The `%` operator is: retuens the remaindr of a division 
@@ -86,28 +92,32 @@ Your review sheet can be in any digital format you want, a word document, a goog
          ```
     * Filter:
       * .filter is an array method that: 
-          `write a definition `
+          ` creates a new arrey with elmements that pass the passed condition `
       * An example of filter is: 
         ```javascript
-           // write the syntax
+           var array 
+           var newarray = array.filter(condition);
          ```
     * forEach:
       * .forEach is an array method that: 
-         `write a definition `
+         ` performs a specific opration on each element of the array `
       *  An example of forEach is: 
          ```javascript
-           // write the syntax
+           array.forEach(function(index){
+            });
          ```
 
    * ##### objects
      * How to access a property  
         ```javascript
-           // write the syntax
+           objeect.property
         ```
 * ### loops
      *   how to make for loop 
          ```javascript
-           for each
+          for(i=0; (condition logic); iterator){
+          logic;
+          }
           ```
 * ### Querying the DOM
   ```javascript
@@ -115,13 +125,16 @@ Your review sheet can be in any digital format you want, a word document, a goog
   ```
 * ### Creating a new element in the DOM
   ```javascript
-   
+     var = new;
+     document.createElemnt(new);
   ```
 * ### Appending a new element to the DOM
   ```javascript
-   innerHTML = 
+      var = new;
+     document.createElemnt(new);
+     document.appendElemnt(new);
   ```
 * ### Updating the style properties
   ```javascript
-   document.style.property = 
+   document.style.property = new property,
   ```
